@@ -1,0 +1,25 @@
+#include <iostream>
+ 
+using namespace std;
+int main()
+{
+   int a = 3; // a – это переменная, 3 – это литерал
+   cout << 5 + 2; // 5 + 2 – это выражение, 5 и 2 – это литералы
+   cout << "Hello, world!"; // "Hello, world" – это тоже литерал
+
+   int b = 30;
+   if (b <= 30) {
+      cout << "   b is less or equal then your argument. ";
+   }
+   else {
+      cout << "Error";
+   }
+   int c = 100;
+
+   if (c == 100) {
+
+      cout << "c is equal 100";
+   }    
+
+   
+}
